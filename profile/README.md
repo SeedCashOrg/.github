@@ -1,3 +1,3 @@
-# 👋 Bienvenidos a [Nombre de tu Organización]
+# 👋 Bienvenidos 
 
 Aquí desarrollamos proyectos open-source relacionados con [tema principal].
