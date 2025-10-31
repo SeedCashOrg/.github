@@ -54,9 +54,9 @@ SeedCash implements multiple layers of security:
 ---
 
 ## Contact & Community
-- **Telegram**: [SeedCash Telegram](#)  
-- **Twitter**: [@seedcash_](#)  
-- **Bitcoin Donations**: [Bitcoin Donations](#)  
+- **Telegram**: [SeedCash Telegram](https://t.me/+tdY1ioshyPZkOGFk)  
+- **Twitter**: [@seedcash_](https://twitter.com/seedcash_)  
+- **Website**: [seedcash.cash](https://seedcash.cash)
 
 ---
 
