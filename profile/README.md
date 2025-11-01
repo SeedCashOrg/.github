@@ -52,10 +52,45 @@ SeedCash implements multiple layers of security:
 ## Software
 ### SeedCash versions
 
-| Version of SeedCash | File |
+| Version of SeedCash | Find File |
 |----------------------|------|
 | v1.1.0 | [seedcash_v1.1.0.img](https://seedcash.cash/resources) |
 
+### Image Verification for SeedCash
+SeedCash provides GPG-signed images to ensure the authenticity and security of each .img file. 
+You can download the latest image [here](https://seedcash.cash/resources)
+
+# The following commands guide you through verifying the downloaded image on Mac/Linux and Windows.
+
+# -------------------------------
+# MAC / LINUX
+# -------------------------------
+
+# Open a terminal in the directory containing the downloaded folder.
+
+# Import SeedCash public key
+gpg --fetch-keys https://keybase.io/seedcash/pgp_keys.asc
+
+# Verify SeedCash public key fingerprint
+gpg --fingerprint
+
+# Verify compatibility between the downloaded image and its signature
+gpg --verify seedcash_v.1.1.0.img.sig seedcash_v.1.1.0.img
+
+# -------------------------------
+# WINDOWS
+# -------------------------------
+
+# Open a terminal in the directory containing the downloaded folder.
+
+# Import SeedCash public key
+gpg --fetch-keys https://keybase.io/seedcash/pgp_keys.asc
+
+# Verify SeedCash public key fingerprint
+gpg --fingerprint
+
+# Verify compatibility between the downloaded image and its signature
+gpg --verify seedcash_v.1.1.0.img.sig seedcash_v.1.1.0.img
 
 
 
