@@ -9,7 +9,7 @@ SeedCash is an specialized device for ultimate security and control over your Bi
 SeedCash implements multiple layers of security:  
 
 - **Air-gapped operation**: The device works offline, reducing exposure to online attack vectors.  
-- **Amnesia / No memory**: The device does **not store any private keys or sensitive data** in memory after use.
+- **Amnesia / No memory**: The device does **not store any private keys or any data** in memory after use.
 - **Source Available code**: Publicly auditable to ensure trust and transparency.
 - **GPG-signed images**: Each SeedCash .img file includes a digital signature for authenticity verification.
   
@@ -49,7 +49,14 @@ SeedCash implements multiple layers of security:
 
 ---
 
-## Installation
+## Software
+### SeedCash versions
+
+| Version of SeedCash | File |
+|----------------------|------|
+| v1.1.0 | [seedcash_v1.1.0.img](https://seedcash.cash/resources) |
+
+
 
 
 ---
