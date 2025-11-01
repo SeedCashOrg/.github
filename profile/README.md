@@ -71,11 +71,18 @@ gpg --fetch-keys https://keybase.io/seedcash/pgp_keys.asc
 ```
 <img width="1291" height="210" alt="1" src="https://github.com/user-attachments/assets/102c0641-134b-4b7a-83b7-47b849bea63d" />
 
-- Verify SeedCash public key fingerprint
+- Verify SeedCash public key fingerprint 
 ```bash
 gpg --fingerprint
 ```
 <img width="561" height="108" alt="2" src="https://github.com/user-attachments/assets/b24d84a6-6e71-4df0-8dfb-9229068d78f9" />
+
+To verify that the public key you imported is correct, you should compare the public key fingerprint  you see locally with the public key fingerprint you find [here](https://keybase.io/seedcash) ("https://keybase.io/seedcash").
+If they match exactly, then you have the correct key from the official source. If there’s any difference — even one character — you should consider it unsafe and re‑import/verify from the official source.
+
+<img width="846" height="549" alt="6" src="https://github.com/user-attachments/assets/95b890c7-16fb-4f49-87a0-aee645e2108b" />
+<img width="993" height="608" alt="7" src="https://github.com/user-attachments/assets/d2372004-068d-4549-b3b7-b359385bb374" />
+
 
 - Verify compatibility between the downloaded image and its signature
 ```bash
@@ -99,6 +106,12 @@ gpg --fetch-keys https://keybase.io/seedcash/pgp_keys.asc
 gpg --fingerprint
 ```
 <img width="615" height="136" alt="5" src="https://github.com/user-attachments/assets/6cc46e3e-c1b8-408e-a112-13394dff9547" />
+
+To verify that the public key you imported is correct, you should compare the public key fingerprint  you see locally with the public key fingerprint you find [here](https://keybase.io/seedcash) ("https://keybase.io/seedcash").
+If they match exactly, then you have the correct key from the official source. If there’s any difference — even one character — you should consider it unsafe and re‑import/verify from the official source.
+
+<img width="846" height="549" alt="6" src="https://github.com/user-attachments/assets/95b890c7-16fb-4f49-87a0-aee645e2108b" />
+<img width="993" height="608" alt="7" src="https://github.com/user-attachments/assets/d2372004-068d-4549-b3b7-b359385bb374" />
 
 - Verify compatibility between the downloaded image and its signature
 ```bash
