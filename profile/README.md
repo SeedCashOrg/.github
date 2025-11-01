@@ -10,7 +10,7 @@ SeedCash implements multiple layers of security:
 
 - **Air-gapped operation**: The device works offline, reducing exposure to online attack vectors.  
 - **Amnesia / No memory**: The device does **not store any private keys or sensitive data** in memory after use.
-- **Open-source code**: Publicly auditable to ensure trust and transparency.
+- **Source Available code**: Publicly auditable to ensure trust and transparency.
   
 ---
 
