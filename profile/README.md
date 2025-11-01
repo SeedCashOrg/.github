@@ -69,16 +69,20 @@ You can download the latest image [here](https://seedcash.cash/resources). The f
 ```bash
 gpg --fetch-keys https://keybase.io/seedcash/pgp_keys.asc 
 ```
+<img width="1291" height="210" alt="1" src="https://github.com/user-attachments/assets/102c0641-134b-4b7a-83b7-47b849bea63d" />
 
 - Verify SeedCash public key fingerprint
 ```bash
 gpg --fingerprint
 ```
+<img width="561" height="108" alt="2" src="https://github.com/user-attachments/assets/b24d84a6-6e71-4df0-8dfb-9229068d78f9" />
 
 - Verify compatibility between the downloaded image and its signature
 ```bash
 gpg --verify seedcash_v.1.1.0.img.sig seedcash_v.1.1.0.img
 ```
+<img width="1282" height="209" alt="3" src="https://github.com/user-attachments/assets/f06e6050-1982-4531-b225-4214e30d8f62" />
+
 
 #### WINDOWS
 
@@ -88,17 +92,19 @@ gpg --verify seedcash_v.1.1.0.img.sig seedcash_v.1.1.0.img
 ```bash
 gpg --fetch-keys https://keybase.io/seedcash/pgp_keys.asc
 ```
+<img width="909" height="98" alt="4" src="https://github.com/user-attachments/assets/75e583f4-f2d2-4357-bced-9c4a7cc3a1ea" />
 
 - Verify SeedCash public key fingerprint
 ```bash
 gpg --fingerprint
 ```
+<img width="615" height="136" alt="5" src="https://github.com/user-attachments/assets/6cc46e3e-c1b8-408e-a112-13394dff9547" />
 
 - Verify compatibility between the downloaded image and its signature
 ```bash
 gpg --verify seedcash_v.1.1.0.img.sig seedcash_v.1.1.0.img
 ```
-
+<img width="956" height="100" alt="8" src="https://github.com/user-attachments/assets/0879d52b-b37f-4bb2-999f-0a96f70e6413" />
 
 
 ---
