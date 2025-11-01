@@ -77,7 +77,7 @@ gpg --fingerprint
 ```
 <img width="561" height="108" alt="2" src="https://github.com/user-attachments/assets/b24d84a6-6e71-4df0-8dfb-9229068d78f9" />
 
-To verify that the public key you imported is correct, you should compare the public key fingerprint  you see locally with the public key fingerprint you find [here](https://keybase.io/seedcash) ("https://keybase.io/seedcash").
+To verify that the public key you imported is correct, you should compare the public key fingerprint  you see locally with the public key fingerprint you find [here](https://keybase.io/seedcash) (keybase.io/seedcash).
 If they match exactly, then you have the correct key from the official source. If there’s any difference — even one character — you should consider it unsafe and re‑import/verify from the official source.
 
 <img width="846" height="549" alt="6" src="https://github.com/user-attachments/assets/95b890c7-16fb-4f49-87a0-aee645e2108b" />
@@ -107,7 +107,7 @@ gpg --fingerprint
 ```
 <img width="615" height="136" alt="5" src="https://github.com/user-attachments/assets/6cc46e3e-c1b8-408e-a112-13394dff9547" />
 
-To verify that the public key you imported is correct, you should compare the public key fingerprint  you see locally with the public key fingerprint you find [here](https://keybase.io/seedcash) ("https://keybase.io/seedcash").
+To verify that the public key you imported is correct, you should compare the public key fingerprint  you see locally with the public key fingerprint you find [here](https://keybase.io/seedcash) (keybase.io/seedcash).
 If they match exactly, then you have the correct key from the official source. If there’s any difference — even one character — you should consider it unsafe and re‑import/verify from the official source.
 
 <img width="846" height="549" alt="6" src="https://github.com/user-attachments/assets/95b890c7-16fb-4f49-87a0-aee645e2108b" />
