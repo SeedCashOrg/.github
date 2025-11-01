@@ -58,39 +58,46 @@ SeedCash implements multiple layers of security:
 
 ### Image Verification for SeedCash
 SeedCash provides GPG-signed images to ensure the authenticity and security of each .img file. 
-You can download the latest image [here](https://seedcash.cash/resources)
+You can download the latest image [here](https://seedcash.cash/resources). The following commands guide you through verifying the downloaded image on Mac/Linux and Windows.
 
-# The following commands guide you through verifying the downloaded image on Mac/Linux and Windows.
 
-# -------------------------------
-# MAC / LINUX
-# -------------------------------
+#### MAC / LINUX
 
-# Open a terminal in the directory containing the downloaded folder.
+- Open a terminal in the directory containing the downloaded folder.
 
-# Import SeedCash public key
-gpg --fetch-keys https://keybase.io/seedcash/pgp_keys.asc
+- Import SeedCash public key
+```bash
+gpg --fetch-keys https://keybase.io/seedcash/pgp_keys.asc 
+```
 
-# Verify SeedCash public key fingerprint
+- Verify SeedCash public key fingerprint
+```bash
 gpg --fingerprint
+```
 
-# Verify compatibility between the downloaded image and its signature
+- Verify compatibility between the downloaded image and its signature
+```bash
 gpg --verify seedcash_v.1.1.0.img.sig seedcash_v.1.1.0.img
+```
 
-# -------------------------------
-# WINDOWS
-# -------------------------------
+#### WINDOWS
 
-# Open a terminal in the directory containing the downloaded folder.
+- Open a terminal in the directory containing the downloaded folder.
 
-# Import SeedCash public key
+- Import SeedCash public key
+```bash
 gpg --fetch-keys https://keybase.io/seedcash/pgp_keys.asc
+```
 
-# Verify SeedCash public key fingerprint
+- Verify SeedCash public key fingerprint
+```bash
 gpg --fingerprint
+```
 
-# Verify compatibility between the downloaded image and its signature
+- Verify compatibility between the downloaded image and its signature
+```bash
 gpg --verify seedcash_v.1.1.0.img.sig seedcash_v.1.1.0.img
+```
 
 
 
